@@ -1,5 +1,5 @@
 ﻿
-namespace MapaSala
+namespace MapaSala.Classes
 {
     partial class frmLogin
     {

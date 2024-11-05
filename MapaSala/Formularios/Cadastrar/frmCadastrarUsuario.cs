@@ -28,5 +28,6 @@ namespace MapaSala.Formularios.Cadastrar
             MessageBox.Show("Sucesso", "Cadastrado com sucesso");
             Close();
         }
+
     }
 }

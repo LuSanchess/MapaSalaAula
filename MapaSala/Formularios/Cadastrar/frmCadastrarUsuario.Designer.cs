@@ -118,6 +118,7 @@ namespace MapaSala.Formularios.Cadastrar
             this.Name = "frmCadastrarUsuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Novo Usuário";
+            this.Load += new System.EventHandler(this.frmCadastrarUsuario_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

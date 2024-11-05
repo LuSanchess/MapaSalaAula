@@ -110,7 +110,7 @@ namespace MapaSala
             this.label3.Size = new System.Drawing.Size(41, 13);
             this.label3.TabIndex = 6;
             this.label3.Text = "Horário";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+         
             // 
             // label4
             // 
@@ -205,7 +205,6 @@ namespace MapaSala
             this.Controls.Add(this.comboBox1);
             this.Name = "MapaSala";
             this.Text = "MapaSala";
-            this.Load += new System.EventHandler(this.MapaSala_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtGridMapa)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
