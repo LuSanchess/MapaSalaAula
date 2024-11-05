@@ -38,18 +38,19 @@ namespace MapaSala
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.dtGridMapa = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.Segunda = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Terça = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Quarta = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Quinta = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Sexta = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label1 = new System.Windows.Forms.Label();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtGridMapa)).BeginInit();
             this.SuspendLayout();
             // 
             // comboBox1
             // 
+            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(12, 41);
             this.comboBox1.Name = "comboBox1";
@@ -58,6 +59,7 @@ namespace MapaSala
             // 
             // comboBox2
             // 
+            this.comboBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(12, 162);
             this.comboBox2.Name = "comboBox2";
@@ -66,6 +68,7 @@ namespace MapaSala
             // 
             // comboBox3
             // 
+            this.comboBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Location = new System.Drawing.Point(12, 81);
             this.comboBox3.Name = "comboBox3";
@@ -74,6 +77,7 @@ namespace MapaSala
             // 
             // comboBox4
             // 
+            this.comboBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.comboBox4.FormattingEnabled = true;
             this.comboBox4.Location = new System.Drawing.Point(12, 202);
             this.comboBox4.Name = "comboBox4";
@@ -121,6 +125,7 @@ namespace MapaSala
             // 
             this.dtGridMapa.AllowUserToDeleteRows = false;
             this.dtGridMapa.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dtGridMapa.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dtGridMapa.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Segunda,
             this.Terça,
@@ -132,23 +137,6 @@ namespace MapaSala
             this.dtGridMapa.ReadOnly = true;
             this.dtGridMapa.Size = new System.Drawing.Size(666, 385);
             this.dtGridMapa.TabIndex = 8;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 106);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 13);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "Disciplina";
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(12, 122);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(196, 21);
-            this.comboBox5.TabIndex = 9;
             // 
             // Segunda
             // 
@@ -180,10 +168,29 @@ namespace MapaSala
             this.Sexta.Name = "Sexta";
             this.Sexta.ReadOnly = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 106);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(52, 13);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Disciplina";
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Location = new System.Drawing.Point(12, 122);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(196, 21);
+            this.comboBox5.TabIndex = 9;
+            // 
             // MapaSala
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(902, 450);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox5);
@@ -198,6 +205,7 @@ namespace MapaSala
             this.Controls.Add(this.comboBox1);
             this.Name = "MapaSala";
             this.Text = "MapaSala";
+            this.Load += new System.EventHandler(this.MapaSala_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtGridMapa)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

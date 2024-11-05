@@ -11,11 +11,6 @@ namespace MapaSala.Classes
         public string Usuario { get; set; }
         public string Senha { get; set; }
 
-        public bool Logar()
-        {
-            string query = "Select  "
-            
-            return 
-        }
+      
     }
 }

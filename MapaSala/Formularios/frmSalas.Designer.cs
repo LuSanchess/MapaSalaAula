@@ -48,6 +48,7 @@ namespace MapaSala.Formularios
             // 
             // txtNome
             // 
+            this.txtNome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtNome.Location = new System.Drawing.Point(62, 33);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(100, 20);
@@ -91,6 +92,7 @@ namespace MapaSala.Formularios
             // 
             // txtId
             // 
+            this.txtId.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtId.Location = new System.Drawing.Point(12, 33);
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(44, 20);
@@ -128,6 +130,7 @@ namespace MapaSala.Formularios
             // 
             // txtNumPc
             // 
+            this.txtNumPc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtNumPc.Location = new System.Drawing.Point(168, 32);
             this.txtNumPc.Name = "txtNumPc";
             this.txtNumPc.Size = new System.Drawing.Size(120, 20);
@@ -135,6 +138,7 @@ namespace MapaSala.Formularios
             // 
             // txtNumCadeira
             // 
+            this.txtNumCadeira.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtNumCadeira.Location = new System.Drawing.Point(318, 32);
             this.txtNumCadeira.Name = "txtNumCadeira";
             this.txtNumCadeira.Size = new System.Drawing.Size(112, 20);
@@ -142,6 +146,7 @@ namespace MapaSala.Formularios
             // 
             // dtGridSalas
             // 
+            this.dtGridSalas.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dtGridSalas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtGridSalas.Location = new System.Drawing.Point(12, 77);
             this.dtGridSalas.Name = "dtGridSalas";
@@ -152,6 +157,7 @@ namespace MapaSala.Formularios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(702, 450);
             this.Controls.Add(this.dtGridSalas);
             this.Controls.Add(this.txtNumCadeira);

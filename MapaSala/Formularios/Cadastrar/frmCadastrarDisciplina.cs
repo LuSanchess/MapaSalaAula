@@ -45,5 +45,7 @@ namespace MapaSala.Formularios.Cadastrar
                 MessageBox.Show("Erro ao Cadastrar", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+  
     }
 }

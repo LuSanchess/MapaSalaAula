@@ -51,6 +51,7 @@ namespace MapaSala.Formularios
             // 
             // cbxCursos
             // 
+            this.cbxCursos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.cbxCursos.FormattingEnabled = true;
             this.cbxCursos.Location = new System.Drawing.Point(229, 33);
             this.cbxCursos.Name = "cbxCursos";
@@ -79,6 +80,7 @@ namespace MapaSala.Formularios
             // dtCursoDisciplina
             // 
             this.dtCursoDisciplina.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dtCursoDisciplina.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dtCursoDisciplina.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtCursoDisciplina.Location = new System.Drawing.Point(12, 73);
             this.dtCursoDisciplina.Name = "dtCursoDisciplina";
@@ -87,6 +89,7 @@ namespace MapaSala.Formularios
             // 
             // cbDisciplinas
             // 
+            this.cbDisciplinas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.cbDisciplinas.FormattingEnabled = true;
             this.cbDisciplinas.Location = new System.Drawing.Point(16, 31);
             this.cbDisciplinas.Name = "cbDisciplinas";
@@ -95,6 +98,7 @@ namespace MapaSala.Formularios
             // 
             // cbPeriodos
             // 
+            this.cbPeriodos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.cbPeriodos.FormattingEnabled = true;
             this.cbPeriodos.Items.AddRange(new object[] {
             "1º Ano",
@@ -121,6 +125,7 @@ namespace MapaSala.Formularios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(865, 463);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.cbPeriodos);

@@ -94,6 +94,7 @@ namespace MapaSala.Formularios.Cadastrar
             // 
             // txtSenha
             // 
+            this.txtSenha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtSenha.Location = new System.Drawing.Point(9, 82);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(210, 20);
@@ -101,6 +102,7 @@ namespace MapaSala.Formularios.Cadastrar
             // 
             // txtLogin
             // 
+            this.txtLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtLogin.Location = new System.Drawing.Point(9, 32);
             this.txtLogin.Name = "txtLogin";
             this.txtLogin.Size = new System.Drawing.Size(210, 20);
@@ -110,6 +112,7 @@ namespace MapaSala.Formularios.Cadastrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(250, 240);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmCadastrarUsuario";

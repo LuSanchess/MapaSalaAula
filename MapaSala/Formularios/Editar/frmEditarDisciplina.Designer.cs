@@ -42,6 +42,7 @@ namespace MapaSala.Formularios.Editar
             // 
             // txtNomeDisciplina
             // 
+            this.txtNomeDisciplina.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtNomeDisciplina.Location = new System.Drawing.Point(32, 74);
             this.txtNomeDisciplina.Name = "txtNomeDisciplina";
             this.txtNomeDisciplina.Size = new System.Drawing.Size(173, 20);
@@ -49,6 +50,7 @@ namespace MapaSala.Formularios.Editar
             // 
             // txtSigla
             // 
+            this.txtSigla.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtSigla.Location = new System.Drawing.Point(32, 124);
             this.txtSigla.Name = "txtSigla";
             this.txtSigla.Size = new System.Drawing.Size(173, 20);
@@ -124,6 +126,7 @@ namespace MapaSala.Formularios.Editar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(249, 250);
             this.Controls.Add(this.btn_Excluir);
             this.Controls.Add(this.label3);

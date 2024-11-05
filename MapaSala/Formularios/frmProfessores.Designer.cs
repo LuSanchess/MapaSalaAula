@@ -46,6 +46,7 @@ namespace MapaSala.Formularios
             // 
             // numId
             // 
+            this.numId.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.numId.Location = new System.Drawing.Point(12, 26);
             this.numId.Name = "numId";
             this.numId.Size = new System.Drawing.Size(87, 20);
@@ -62,6 +63,7 @@ namespace MapaSala.Formularios
             // 
             // txtNomeCompleto
             // 
+            this.txtNomeCompleto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtNomeCompleto.Location = new System.Drawing.Point(105, 25);
             this.txtNomeCompleto.Name = "txtNomeCompleto";
             this.txtNomeCompleto.Size = new System.Drawing.Size(217, 20);
@@ -78,6 +80,7 @@ namespace MapaSala.Formularios
             // 
             // txtApelido
             // 
+            this.txtApelido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtApelido.Location = new System.Drawing.Point(328, 26);
             this.txtApelido.Name = "txtApelido";
             this.txtApelido.Size = new System.Drawing.Size(140, 20);
@@ -105,6 +108,7 @@ namespace MapaSala.Formularios
             // dtGridProfessores
             // 
             this.dtGridProfessores.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dtGridProfessores.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dtGridProfessores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtGridProfessores.Location = new System.Drawing.Point(12, 91);
             this.dtGridProfessores.Name = "dtGridProfessores";
@@ -142,6 +146,7 @@ namespace MapaSala.Formularios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(675, 461);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtPesquisa);
